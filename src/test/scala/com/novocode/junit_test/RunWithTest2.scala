@@ -11,6 +11,6 @@ class RunWithTest2 {
   }
 
   def otherMethod {
-    sys.error("In RunWithTest2.otherMethod")
+    throw new Exception("In RunWithTest2.otherMethod")
   }
 }
